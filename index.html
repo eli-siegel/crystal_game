@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--link to css file-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <!--link to css reset file-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <!--link to bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Crystal Collector!</h1>
+            <p class="lead">Match your score to the target score by clicking the crystals. Each crystal has a different value, so be careful and good luck!</p>
+        </div>
+
+        <div class="gems">
+            <img src="assets/images/blue_crystal.jpg" class=gemImage id="blue">
+            <img src="assets/images/green_crystal.jpg" class=gemImage id="green">
+            <img src="assets/images/red_crystal.jpg" class=gemImage id= "red">
+            <img src="assets/images/purple_crystal.jpg" class=gemImage id= "purp">
+        </div>
+
+        <div class="targetNumber">
+            <h3>Target Number: 
+                <span id="targetNumber"></span>
+            </h3>
+        </div>
+
+        <div class="winsAndLosses">
+            <h3>Wins:
+                <span id= "wins"></span>
+                <br><br>
+                Losses: 
+                <span id= "losses"></span>
+            </h3>
+        </div>
+        <div class="totalScore">
+            <h3>Your total score is:
+                <span id="count"></span>
+            </h3>
+        </div>
+    
+    </div>
+
+
+    <!--link to jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--link to js file-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
