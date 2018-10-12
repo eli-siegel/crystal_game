@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     //function for wins
     function win(){
-        alert("Congratulations, you won!");
+        alert("Way to go, champ");
           wins++; 
           //adds win total to page, calls reset function
           $('#wins').text(wins);
