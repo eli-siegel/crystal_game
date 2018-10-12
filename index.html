@@ -19,6 +19,15 @@
             <p class="lead">Match your score to the target score by clicking the crystals. Each crystal has a different value.  Don't go over the target score, lest you be called a loser!</p>
         </div>
 
+        <!--Displays randomized target #-->
+        <div class="targetNumber">
+            <h3>Target Number: 
+                <span id="targetNumber"></span>
+            </h3>
+        </div>
+
+        <hr>
+
         <div class="gems">
             <img src="assets/images/blue_crystal.jpg" class=gemImage id="blue">
             <img src="assets/images/green_crystal.jpg" class=gemImage id="green">
@@ -26,12 +35,17 @@
             <img src="assets/images/purple_crystal.jpg" class=gemImage id= "purp">
         </div>
 
-        <!--Displays randomized target #-->
-        <div class="targetNumber">
-            <h3>Target Number: 
-                <span id="targetNumber"></span>
+        <hr>
+
+        <!--Records user score-->
+        <div class="totalScore">
+            <h3>Your total score is:
+                <span id="count"></span>
             </h3>
         </div>
+
+        <hr>
+
         <!--Area to record wins/losses-->
         <div class="winsAndLosses">
             <h3>Wins:
@@ -39,12 +53,6 @@
                 <br><br>
                 Losses: 
                 <span id= "losses"></span>
-            </h3>
-        </div>
-        <!--Records user score-->
-        <div class="totalScore">
-            <h3>Your total score is:
-                <span id="count"></span>
             </h3>
         </div>
     
